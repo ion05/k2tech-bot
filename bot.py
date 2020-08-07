@@ -36,4 +36,4 @@ async def on_message(message):
 `show "file name" value` - To display rows of specific value
 """)
         await message.channel.send(embed=embed)
-client.run("TOKEN")
+client.run("NzQxMTc2NDk4Njg5NDA5MDk0.XyzwZw.x0DUuO0RPk0yZEjJ9edSWkGog6E")
