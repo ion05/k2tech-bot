@@ -1,3 +1,3 @@
-# k2tech-bot
+# aayan-bot
 ## Main Bot
-Use this as main bot
+This is my bot
