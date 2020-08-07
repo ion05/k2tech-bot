@@ -36,4 +36,10 @@ async def on_message(message):
 `show "file name" value` - To display rows of specific value
 """)
         await message.channel.send(embed=embed)
-client.run("NzQxMTc2NDk4Njg5NDA5MDk0.XyzwZw.x0DUuO0RPk0yZEjJ9edSWkGog6E")
+    if message.content.startswith("$k2 kick"):
+        async def kick(self, ctx, member: discord.Member, *, reason=None):
+            await member.kick(reason=reason)
+            await ctx.send(f'User {member} has been kick')
+
+    
+client.run("NzQxMTc2NDk4Njg5NDA5MDk0.XyzwZw.UNlAxJsjMkaCfsZ9QZH28HwOtuM")
