@@ -28,7 +28,7 @@ async def on_message(message):
         colour=1499502,
         description="""
 > To use a  command type `$ts <command>`.
-**General**
+**General**\
 `about` - To know about the bot.
 `stats` - To check the bot's stats.
 **Google Sheets **
@@ -36,4 +36,4 @@ async def on_message(message):
 `show "file name" value` - To display rows of specific value
 """)
         await message.channel.send(embed=embed)
-client.run("NzQxMTc2NDk4Njg5NDA5MDk0.XyzwZw.WSAJMvaQzG9HCx3Y8SkCbcENTiw")
+client.run("TOKEN")
